@@ -6,4 +6,5 @@ public record RegisterUserMVCRq() {
     private static String lastName;
     private static String email;
     private static String password;
+
 }
