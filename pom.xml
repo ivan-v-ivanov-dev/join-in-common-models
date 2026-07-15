@@ -40,7 +40,7 @@
 			</url>
 		</repository>
 		<snapshotRepository>
-			<id>github</id>
+			<id>github-common-models</id>
 			<name>GitHub Packages</name>
 			<url>https://maven.pkg.github.com/ivan-v-ivanov-dev/join-in-common-models</url>
 		</snapshotRepository>
