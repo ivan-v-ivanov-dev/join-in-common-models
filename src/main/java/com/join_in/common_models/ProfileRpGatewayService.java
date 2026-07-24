@@ -1,6 +1,6 @@
-package com.join_in.common_models.profile.service;
+package com.join_in.common_models;
 
-public record ProfileRpProfileService(
+public record ProfileRpGatewayService(
         String identity,
         String email,
         String firstName,
