@@ -2,6 +2,7 @@ package com.join_in.common_models.profile.service;
 
 public record ProfileRpProfileService(
         String identity,
+        String email,
         String firstName,
         String lastName,
         String aboutMe,
