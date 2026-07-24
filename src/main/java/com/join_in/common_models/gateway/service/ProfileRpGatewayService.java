@@ -2,6 +2,7 @@ package com.join_in.common_models.gateway.service;
 
 public record ProfileRpGatewayService(
         String identity,
+        String email,
         String firstName,
         String lastName,
         String aboutMe,
