@@ -24,6 +24,11 @@ public record PostRpGatewayService(
         String pollQuestion,
         List<PollOptionRpGatewayService> pollOptions,
 
+        int likeCount,
+        int dislikeCount,
+        int hahaCount,
+        int angryCount,
+
         String postedAgo,
         List<CommentRpGatewayService> comments
 ) {

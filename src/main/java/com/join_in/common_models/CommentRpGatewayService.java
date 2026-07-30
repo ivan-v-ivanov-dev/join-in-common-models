@@ -7,6 +7,8 @@ public record CommentRpGatewayService(
         String postIdentity,
         String authorIdentity,
         String content,
+        int likeCount,
+        int dislikeCount,
         String postedAgo
 ) {
 }

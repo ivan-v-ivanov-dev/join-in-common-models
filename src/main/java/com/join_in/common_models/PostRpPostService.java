@@ -24,6 +24,11 @@ public record PostRpPostService(
         String pollQuestion,
         List<PollOptionRpPostService> pollOptions,
 
+        int likeCount,
+        int dislikeCount,
+        int hahaCount,
+        int angryCount,
+
         String postedAgo,
         List<CommentRpPostService> comments
 ) {
