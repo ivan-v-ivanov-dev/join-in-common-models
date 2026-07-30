@@ -3,6 +3,9 @@ package com.join_in.common_models;
 import java.util.List;
 
 public record PostRpGatewayService(
+        String authorProfileImage,
+        String authorNames,
+
         String postIdentity,
         String authorIdentity,
         String groupIdentity,
