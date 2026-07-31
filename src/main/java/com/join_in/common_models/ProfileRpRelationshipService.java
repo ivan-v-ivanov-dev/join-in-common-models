@@ -4,6 +4,7 @@ public record ProfileRpRelationshipService(
         String identity,
         String firstName,
         String lastName,
-        String profileImage
+        String profileImage,
+        String onlineStatus
 ) {
 }
