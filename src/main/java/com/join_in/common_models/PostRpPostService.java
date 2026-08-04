@@ -18,7 +18,7 @@ public record PostRpPostService(
 
         boolean poll,
 
-        String imageIdentity,
+        String image,
         String youtubeUrl,
 
         String pollQuestion,
