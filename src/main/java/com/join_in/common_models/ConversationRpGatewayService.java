@@ -5,7 +5,7 @@ import java.time.LocalDateTime;
 public record ConversationRpGatewayService(
         String profileIdentity,
         String participantNames,
-        String participantImage,
+        String participantProfileImage,
         LocalDateTime lastMessageAt,
         String conversationIdentity,
         String participantIdentity
