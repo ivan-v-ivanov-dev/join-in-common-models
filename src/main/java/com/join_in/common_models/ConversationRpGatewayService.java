@@ -6,7 +6,7 @@ public record ConversationRpGatewayService(
         String profileIdentity,
         String participantNames,
         String participantProfileImage,
-        LocalDateTime lastMessageAt,
+        String postedAgo,
         String conversationIdentity,
         String participantIdentity
 ) {
