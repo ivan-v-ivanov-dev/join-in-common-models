@@ -4,8 +4,8 @@ import java.time.LocalDateTime;
 
 public record ConversationRpMessageService(
     String profileIdentity,
-    String profileNames,
-    String profileImage,
+    String participantNames,
+    String participantProfileImage,
     LocalDateTime lastMessageAt,
     String conversationIdentity,
     String participantIdentity

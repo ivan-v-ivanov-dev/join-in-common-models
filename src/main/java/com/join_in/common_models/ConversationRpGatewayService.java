@@ -4,8 +4,8 @@ import java.time.LocalDateTime;
 
 public record ConversationRpGatewayService(
         String profileIdentity,
-        String profileNames,
-        String profileImage,
+        String participantNames,
+        String participantImage,
         LocalDateTime lastMessageAt,
         String conversationIdentity,
         String participantIdentity
