@@ -1,6 +1,6 @@
 package com.join_in.common_models;
 
-public record EditProfileMvcRq(
+public record EditProfileGatewayRq(
         String firstName,
         String lastName,
         String aboutMe,
